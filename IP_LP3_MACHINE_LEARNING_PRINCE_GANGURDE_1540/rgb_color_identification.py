@@ -72,7 +72,7 @@ we are going to us Tensorflow to develop the model.
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense,Dropout,Flatten,Conv2D,MaxPool2D,InputLayer,BatchNormalization
+from tensorflow.keras.layers import Dense,Flatten,Activation
 
 model = Sequential()
 model.add(Flatten())
