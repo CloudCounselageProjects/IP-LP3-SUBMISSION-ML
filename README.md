@@ -6,6 +6,8 @@ In the folder named 'IP_LP3_Machine_Learning_Suraj_Chatterjee_836', you will fin
 
 2. 'data_color.zip' is the generated dataset from the previous step which is stored as a zip file format.
 
-4. 'CC_color_recognition.ipynb' is the python notebook which is ran on Google Collab in which a CNN model is created for color recognition, any new image can be classified into RGB color using the CNN model by providing the image path in the second last cell of the notebook.
+3. 'CC_color_recognition.ipynb' is the python notebook which is ran on Google Collab in which a CNN model is created for color recognition, any new image can be classified into RGB color using the CNN model by providing the image path in the second last cell of the notebook.
 
-3. 'finalized_model.sav' is the CNN model saved from the above step.
+4. 'finalized_model.sav' is the CNN model saved from the above step.
+
+5. c1, c2 and c3 are the test images having color c1: Red, c2: Green, c3: Blue
