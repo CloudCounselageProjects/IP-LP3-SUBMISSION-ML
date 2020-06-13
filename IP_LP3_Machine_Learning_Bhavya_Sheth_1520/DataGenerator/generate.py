@@ -38,8 +38,8 @@ def getRgbColor():
     return (color, colors[color])
 
 def generateData(n, path):
-    width = 150
-    height = 150
+    width = 28
+    height = 28
 
     labels = open(path + "/labels.txt", "w")
 
@@ -50,7 +50,7 @@ def generateData(n, path):
         im = Image.new("RGB", (width, height), tuple(color[1]))
         im.save(path + '/im' + str(i), format='png')
 
-        labels.write(str(i) + ": " + color[0] + "\n")
+        labels.write(color[0] + "\n")
 
     labels.close()
 
