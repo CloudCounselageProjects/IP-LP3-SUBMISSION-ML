@@ -38,9 +38,12 @@ test_datagen = ImageDataGenerator(rescale = 1./255)
 training_set = train_datagen.flow_from_directory(r'C:\Users\aakan\OneDrive\Documents\PROJECTS\CC Assignment\new_train',target_size = (64,64),batch_size = 10,class_mode = 'categorical')
 test_set = test_datagen.flow_from_directory(r'C:\Users\aakan\OneDrive\Documents\PROJECTS\CC Assignment\new_test',target_size = (64,64),batch_size = 10,class_mode = 'categorical')
 #model.summary()
+train_size = 500
+val_size = 100
+batch_size = 10
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
-history = model.fit_generator(training_set,validation_data = test_set,nb_val_samples = 50)
+history = model.fit_generator(training_set,nb_epoch = 50, steps_per_epoch = train_size//batch_size,validation_data = test_set,validation_steps = val_size//batch_size)
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 print('acc:',sum(acc)/len(acc)*100,'%')
