@@ -27,8 +27,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-Data/test/
-Data/train/
+IP_LP3_Machine_Learning_Bhavya_Sheth_1520/Data/test/
+IP_LP3_Machine_Learning_Bhavya_Sheth_1520/Data/train/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
