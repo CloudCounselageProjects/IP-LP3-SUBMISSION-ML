@@ -1,0 +1,1 @@
+The whole code is provided under the Model.ipynb file . The trained model is saved under the model.h5 file .
