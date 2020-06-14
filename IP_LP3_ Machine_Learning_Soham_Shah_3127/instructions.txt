@@ -1,0 +1,7 @@
+Please install the required libraries using following command:
+pip install -r requirements.txt
+
+To run the python file use the following command:
+python color_detection.py -i <path to your image>
+
+When the image window opens double click on the color to see the result.
