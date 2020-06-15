@@ -6,6 +6,9 @@ The assignment provided hands-on experience with tensorflow
 ## My approach
 Initially I webscraped images from shutterstock, however while webscraping some images were corrupt and caused a bad prediction due to these images 
 
+**Link to the trained model**
+https://drive.google.com/drive/folders/1pkK5S1rA1rjSYm_11GwzpmJLpbkrLpWF?usp=sharing
+
 **To run the webscraping code**
 ```
 python webscrape.py
