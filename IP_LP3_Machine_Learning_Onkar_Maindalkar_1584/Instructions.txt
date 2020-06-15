@@ -1,0 +1,5 @@
+Name- Onkar Maindalkar
+User Id(Cloud Counselage)- 1584
+
+Instructions- Just input the 'PC address of the input image' in IMAGE_DIRECTORY variable in the first cell after importing the libraries.
+The code should work perfectly after that. The output will be the colour image and its closest RGB color name. 
