@@ -12,6 +12,7 @@ https://www.kaggle.com/trushraut18/datasets
 folder structure :
 
 IP_LP3_MACHINE_LEARNING_TRUSHNA_RAUT_1588
+----->
    ---- Colour_Classification.ipynb
    ---- test.zip
    ---- test_images.zip
@@ -19,12 +20,12 @@ IP_LP3_MACHINE_LEARNING_TRUSHNA_RAUT_1588
     
 Dataset structure :
 
- train 
+ train ====>
  ----  Red
  ----  Green
  ----  Blue
   
- test 
+ test ===>
  ----  Red
  ----  Green
  ----  Blue
